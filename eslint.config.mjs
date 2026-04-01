@@ -8,6 +8,13 @@ import globals from 'globals';
 
 export default [
   eslint.configs.recommended,
+  // JS/MJS config files (Node environment)
+  {
+    files: ['**/*.{js,mjs}'],
+    languageOptions: {
+      globals: { ...globals.node },
+    },
+  },
   // TypeScript files
   {
     files: ['**/*.ts'],

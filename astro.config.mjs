@@ -6,6 +6,11 @@ import tailwindcss from '@tailwindcss/vite';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://mistahuman.github.io/template-astro-svelte-skeleton',
+  base:
+    process.env.NODE_ENV === 'production'
+      ? '/template-astro-svelte-skeleton/'
+      : '/template-astro-svelte-skeleton/',
+  output: 'static',
   integrations: [svelte()],
   vite: {
     plugins: [tailwindcss()],

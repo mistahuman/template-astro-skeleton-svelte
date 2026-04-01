@@ -4,7 +4,7 @@ A responsive GitHub Page built with [Astro](https://astro.build/) and [Skeleton]
 
 ## 🚀 Live Demo
 
-[View the website](https://mistahuman.github.io/template-astro-skeleton-svelte)
+[View the website](https://mistahuman.github.io/template-astro-svelte-skeleton)
 
 ## 🧰 Tech Stack
 
