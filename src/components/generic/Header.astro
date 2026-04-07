@@ -6,7 +6,8 @@ import Lightswitch from '@components/generic/Lightswitch.astro';
 // Icons
 import { Github } from 'lucide-svelte';
 
-const coreLinks = [{ href: '/', label: 'home', target: '_self' }];
+const base = import.meta.env.BASE_URL;
+const coreLinks = [{ href: base, label: 'home', target: '_self' }];
 ---
 
 <header
@@ -22,7 +23,7 @@ const coreLinks = [{ href: '/', label: 'home', target: '_self' }];
         <!-- <Navigation /> -->
       </Drawer>
       <!-- Logo -->
-      <a class="hidden xl:inline-block" href="/" title="Mistahuman">
+      <a class="hidden xl:inline-block" href={base} title="Mistahuman">
         <Logo width="32" height="32" />
       </a>
       <div class="hidden xl:flex items-center">
