@@ -4,7 +4,7 @@ A **base template** for building small static frontend apps deployed on **GitHub
 
 ## Live Demo
 
-[View the website](https://mistahuman.github.io/template-astro-svelte-skeleton)
+[View the website](https://mistahuman.github.io/astro-svelte-skeleton-starter)
 
 ## Tech Stack
 
@@ -19,8 +19,8 @@ A **base template** for building small static frontend apps deployed on **GitHub
 ## Installation
 
 ```bash
-git clone https://github.com/mistahuman/template-astro-svelte-skeleton.git
-cd template-astro-svelte-skeleton
+git clone https://github.com/mistahuman/astro-svelte-skeleton-starter.git
+cd astro-svelte-skeleton-starter
 npm install
 npm run dev
 ```
